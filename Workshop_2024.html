@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            margin: 0px; /* Add some margin for space around the entire content */
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* background: url('lausanne.jpg') center/cover no-repeat; */
+            color: #333;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 1fr 1fr;
+            min-height: 50vh;
+        }
+
+        header {
+            background: url('img/Lausanne.jpeg') center/cover no-repeat, #fff; /* White background added */
+            color: #ffffff;
+            padding: 20px;
+            text-align: right;
+            grid-row: 1;
+            height: 400px;
+            grid-column: span 2;
+        }
+
+        /* SPONSORS + INVITED PARTICIPANTS */
+        sections {
+            padding: 10px;
+            background-color: #ffffff; /* White background for sections */
+            margin: 20px; /* Adjust margin as needed */
+            border-radius: 10px; /* Optional: add border-radius for rounded corners */
+            grid-row: 3;
+            
+        }
+
+        /* MAP SECTION */
+        section {
+            padding: 10px;
+            background-color: #ffffff; /* White background for sections */
+            margin-left: 20%; /* Adjust margin as needed */
+            margin-right: 20%; /* Adjust margin as needed */
+            text-align: center;
+            border-radius: 10px; /* Optional: add border-radius for rounded corners */
+            grid-row: 4;
+            grid-column: span 2;
+            align-content: center;
+
+        }
+
+
+        footer {
+            background-color: #292b2c;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            grid-row: 6;
+            grid-column: span 2;
+        }
+        
+        /* General information; The space below header */
+        .spacer {
+        padding: 10px;
+        margin: 20px; /* Adjust margin as needed */
+        border-radius: 10px; /* Optional: add border-radius for rounded corners */
+        text-align: center;
+        height: 100%; 
+        grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Many-body electronic structure calculations for solids</h1>
+        <h2>March 11th-13th 2024</h2>
+        <p>École Polytechnique Fédérale de Lausanne</p>
+    </header>
+    <div class="spacer">
+        <h2>Program and Venue</h2>
+        <p>The workshop will take place at the <a href="https://bernoulli.epfl.ch">Bernoulli Center</a> for Fundamental Studies, which is located on the third floor of the GA building on the EPFL campus. </p> <br>
+
+        <li> The program and a book of abstracts will soon be available here.</a>.</li><br>
+         <!-- <li> A book of abstracts will be forthcoming here.</li><br>  -->
+
+
+
+    </div>
+    <sections>
+
+        <h2 style="text-align: center; margin-right: 10%;">Invited Participants</h2>
+            <ol style="margin-left: 15%; line-height: 2.0;">
+               <li> Reinhold Schneider (Technische Universität Berlin) </li> 
+               <li> Antoine Levitt (Université Paris-Saclay) </li>
+               <li> Fabian Faulstich (Rensselaer Polytechnic Institute)</li>
+               <li> Maria Hellgren (Sorbonne Université) </li>
+               <li> Michael Herbst (École Polytechnique Fédérale de Lausanne) </li>
+               <li> Andreas Grüneis (Technische Universität Wien) </li>
+               <li> Thomas Bondo Pedersen (University of Oslo) </li>
+               <li> Eva Pavarini (Forschungszentrum Jülich) </li>
+               <li> Mi-Song Dupuy (Sorbonne Université) </li>
+               <li> Örs Legeza (Wigner Research Centre for Physics) </li>
+               <li> Andre Laestadius (Oslo Metropolitan University) </li>
+            </ol>
+        </p>
+    </sections>
+    <sections style="margin-left: 20%; margin-right: 20%; text-align: center;">
+        <h2 style="text-align: center;"> Sponsors</h2>
+        <p> We gratefully acknowledge support from the Bernoulli Center for Fundamental Studies.</p> <br><br>
+        <img class="img-responsive" src="img/Bernoulli.png" alt=""><br>
+        <img class="img-responsive" src="img/Logo.png" width="50%" height="40%" margin-left: auto; margin-right: auto; alt=""><br>
+    </sections>
+    <!-- <section>
+
+
+    </section> -->
+    <section>
+        <br><br><br>
+        <h2> Venue Map </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.409239498669!2d6.569117376986797!3d46.519803171110844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c310264beddaf%3A0x3a4de4ac4fbd08c1!2sEPFL%20Bernoulli%20center!5e0!3m2!1sen!2sch!4v1707677228549!5m2!1sen!2sch" width="100%" height="400" style="border:0;" allowfullscreen="" aria-referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br><br><br>
+    </section>
+    
+    <footer>
+        <p>Copyright © 2024 Muhammad Hassan</p>
+    </footer>
+</body>
+</html>
